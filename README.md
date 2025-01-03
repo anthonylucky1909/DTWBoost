@@ -1,4 +1,4 @@
-# DTW-Kernel Classifier: Evaluation of Different SVM Kernels with DTW on Time Series Classification
+# DTW-SVM-X: Evaluation of Different SVM Kernels with DTW on Time Series Classification
 ## Abstract
 
 Support Vector Machine (SVM) is a powerful classifier for multidimensional data. This paper evaluates the effectiveness of different SVM kernels combined with Dynamic Time Warping (DTW) as a distance metric for time series classification. We compare several kernel functions (Cauchy, Gaussian, Inverse Multiquadric, Laplacian, Log, Rational Quadratic) incorporated with DTW to assess their performance on time series datasets such as ECG, FordA, and Human Activity Recognition (HAR).
