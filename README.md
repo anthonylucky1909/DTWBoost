@@ -40,35 +40,40 @@ The methodology involves:
 
 The kernels evaluated in this study are:
 
-- **Cauchy Kernel**: 
-  $$
-  K(x, x') = \frac{1}{1 + \|x - x'\|^2}
-  $$
+# Kernel Functions
 
-- **Gaussian Kernel**: 
-  $$
-  K(x, x') = \exp\left(\frac{-\|x - x'\|^2}{\sigma}\right)
-  $$
+## Cauchy Kernel
+$$
+K(x, x') = \frac{1}{1 + \|x - x'\|^2}
+$$
 
-- **Inverse Multiquadric Kernel**: 
-  $$
-  K(x, x') = \frac{1}{\sqrt{2\sigma^2 \|x - x'\|^2 + c^2}}
-  $$
+## Gaussian Kernel
+$$
+K(x, x') = \exp\left(\frac{-\|x - x'\|^2}{\sigma}\right)
+$$
 
-- **Laplacian Kernel**: 
-  $$
-  K(x, x') = \exp\left(\frac{-\|x - x'\|}{\sigma}\right)
-  $$
+## Inverse Multiquadric Kernel
+$$
+K(x, x') = \frac{1}{\sqrt{2\sigma^2 \|x - x'\|^2 + c^2}}
+$$
 
-- **Log Kernel**: 
-  $$
-  K(x, x') = -\log(\|x - x'\| + c)
-  $$
+## Laplacian Kernel
+$$
+K(x, x') = \exp\left(\frac{-\|x - x'\|}{\sigma}\right)
+$$
 
-- **Rational Quadratic Kernel**: 
-  $$
-  K(x, x') = 1 - \frac{\|x - x'\|^2}{\|x - x'\|^2 + c}
-  $$
+## Log Kernel
+$$
+K(x, x') = -\log(\|x - x'\| + c)
+$$
+
+
+## Rational Quadratic Kernel
+$$
+K(x, x') = 1 - \frac{\|x - x'\|^2}{\|x - x'\|^2 + c}
+$$
+
+
 
 
 
