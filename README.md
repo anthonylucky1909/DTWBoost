@@ -1,4 +1,4 @@
-# DTW-SVM-X: Evaluating SVM Kernels with DTW for Time Series Classification
+# DTWBoost: A Dynamic Time Warping Enhanced SVM Classifier for Time Series Data
 
 ## 📌 Abstract
 This project evaluates the use of **Support Vector Machine (SVM)** with different **kernel functions** combined with **Dynamic Time Warping (DTW)** for classifying time series data. We assess performance on datasets like **ECG**, **FordA**, and **HAR**.
